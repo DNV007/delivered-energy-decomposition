@@ -143,7 +143,7 @@ def main() -> int:
         return 1
     outdir = PROJECT_ROOT / args.outdir
     outdir.mkdir(parents=True, exist_ok=True)
-    stem = f"undelivered-charge-vs-voltage-depression-{args.version}"
+    stem = f"delivered-energy-decomposition-{args.version}"
     archive = outdir / f"{stem}.zip"
 
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as zf:

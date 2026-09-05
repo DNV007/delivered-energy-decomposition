@@ -74,7 +74,7 @@ def main() -> int:
         return 1
 
     outdir = ROOT / args.outdir
-    stem = f"undelivered-charge-vs-voltage-depression-{args.version}"
+    stem = f"delivered-energy-decomposition-{args.version}"
     archive, checksum = outdir / f"{stem}.zip", outdir / f"{stem}.zip.sha256"
     for path in (archive, checksum):
         if not path.is_file():
