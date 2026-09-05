@@ -47,11 +47,6 @@
       "scheme": "url"
     }
   ],
-  "grants": [
-    {
-      "id": "10.13039/501100001659::390874152"
-    }
-  ],
   "notes": "Funded by the German Research Foundation (DFG) through the POLiS Cluster of Excellence (project ID 390874152) and by the Dr. Barbara Mez-Starck Foundation. The raw measurement data are the work of Droese et al. (TU Berlin) and are not redistributed here.",
   "version": "v1.0.0"
 }
