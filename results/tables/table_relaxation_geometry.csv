@@ -1,0 +1,9 @@
+file,direction,segments,n_columns,n_temperatures,n_dod,temperatures,dod
+LFP_protocol_1_relaxation.mat,cha,30,5,1,10,25,0;2;4;6;10;20;40;60;80;90
+LFP_protocol_1_relaxation.mat,dis,30,5,1,10,25,10;20;40;60;80;90;94;96;98;100
+NMC_protocol_1_relaxation.mat,cha,30,5,1,10,25,0;2;4;6;10;20;40;60;80;90
+NMC_protocol_1_relaxation.mat,dis,30,5,1,10,25,10;20;40;60;80;90;94;96;98;100
+LFP_protocol_2_relaxation.mat,cha,30,5,15,1,-15;-10;-5;0;5;10;15;20;25;30;35;40;45;50;55,0
+LFP_protocol_2_relaxation.mat,dis,30,5,15,1,-15;-10;-5;0;5;10;15;20;25;30;35;40;45;50;55,100
+NMC_protocol_2_relaxation.mat,cha,30,5,15,1,-15;-10;-5;0;5;10;15;20;25;30;35;40;45;50;55,0
+NMC_protocol_2_relaxation.mat,dis,30,5,15,1,-15;-10;-5;0;5;10;15;20;25;30;35;40;45;50;55,100

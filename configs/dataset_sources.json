@@ -1,0 +1,13 @@
+{
+  "primary_dataset": {
+    "name": "Evaluation of Commercial Sodium-Ion Batteries by State-of-the-Art Lithium-Ion Battery Configurations",
+    "doi": "https://doi.org/10.14279/depositonce-25036",
+    "repository_page": "https://depositonce.tu-berlin.de/items/5e9d5736-191b-4a8e-ba11-cb04b962a381",
+    "api_root": "https://api-depositonce.tu-berlin.de/server/api",
+    "depositonce_item_uuid": "5e9d5736-191b-4a8e-ba11-cb04b962a381",
+    "expected_files": [
+      "Readme.md",
+      "data_EvalSIB.zip"
+    ]
+  }
+}

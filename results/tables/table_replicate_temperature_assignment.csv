@@ -1,0 +1,5 @@
+cell_family,n_cells,replicate_min_r_1s_mohm,replicate_median_r_1s_mohm,replicate_max_r_1s_mohm,replicate_spread_percent_of_mean,series_r_1s_at_25c_mohm,gap_to_25c_percent,closest_alternative_setpoint_deg_c,gap_to_closest_alternative_percent,setpoints_bracketed,nearest_setpoint_to_replicate_median_deg_c,assignment
+SIB,3,89.38,89.63,92.96,3.948964959370532,91.0738965902579,0.0,15.0,43.60894527742319,25,25.0,25 C
+LFP,3,52.02,65.76,84.34,47.97150207797349,83.15822977121461,0.0,35.0,0.0,25|35,35.0,undecided
+NMC,3,38.79,41.72,41.83,7.454634624816084,42.8456225893679,2.3704232264322997,35.0,17.799503080284847,none,25.0,25 C
+LTO,3,26.83,31.29,31.42,15.378601742238107,24.7971738150962,8.197813993085934,15.0,0.0,15,5.0,undecided

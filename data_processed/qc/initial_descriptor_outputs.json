@@ -1,0 +1,178 @@
+{
+  "cell_stream_availability": {
+    "rows": 37,
+    "columns": [
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "measurement_stream",
+      "file_count"
+    ]
+  },
+  "hppc_resistance_long": {
+    "rows": 1512,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "source_file_direction",
+      "pulse_direction",
+      "c_rate",
+      "soc_fraction",
+      "soc_percent",
+      "r_fast_ohm",
+      "dt_fast_s",
+      "r_100ms_ohm",
+      "dt_100ms_s",
+      "r_1s_ohm",
+      "dt_1s_s"
+    ]
+  },
+  "capacity_temperature_summary": {
+    "rows": 20,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "ambient_temperature_from_file_deg_c",
+      "actual_temperature_mean_deg_c",
+      "discharge_capacity_ah",
+      "charge_capacity_ah",
+      "n_discharge_capacity_segments",
+      "n_charge_capacity_segments",
+      "source_step_ids",
+      "discharge_capacity_retention_vs_25c",
+      "charge_capacity_retention_vs_25c"
+    ]
+  },
+  "ocv_temperature_points": {
+    "rows": 4200,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "ambient_temperature_from_file_deg_c",
+      "direction",
+      "segment_index",
+      "segment_capacity_ah",
+      "cumulative_capacity_ah",
+      "soc_fraction_by_capacity",
+      "ocv_voltage_v",
+      "ocv_temperature_mean_deg_c"
+    ]
+  },
+  "ocv_current_rate_summary": {
+    "rows": 20,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "step_id",
+      "c_rate",
+      "n_points",
+      "capacity_span_ah",
+      "voltage_start_v",
+      "voltage_end_v",
+      "temperature_mean_deg_c",
+      "temperature_span_deg_c"
+    ]
+  },
+  "eis_spectral_descriptors": {
+    "rows": 40,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "n_points",
+      "freq_min_hz",
+      "freq_max_hz",
+      "voltage_mean_v",
+      "temperature_mean_deg_c",
+      "series_resistance_high_freq_ohm",
+      "series_resistance_min_abs_zim_ohm",
+      "freq_at_min_abs_zim_hz",
+      "low_freq_zabs_ohm",
+      "low_freq_zre_ohm",
+      "low_freq_zim_ohm",
+      "arc_width_zre_ohm",
+      "min_zim_ohm",
+      "characteristic_freq_min_zim_hz"
+    ]
+  },
+  "drt_descriptors": {
+    "rows": 40,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "n_points",
+      "tau_min_s",
+      "tau_max_s",
+      "gamma_max",
+      "tau_at_gamma_max_s",
+      "gamma_integral_logtau"
+    ]
+  },
+  "entropy_dudt_long": {
+    "rows": 88,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "direction",
+      "soc_percent",
+      "dudt_v_per_k",
+      "dudt_mv_per_k",
+      "entropic_heat_sensitivity_v_at_25c"
+    ]
+  },
+  "thermal_response_descriptors": {
+    "rows": 14,
+    "columns": [
+      "member_path",
+      "file_name",
+      "cell_id",
+      "cell_family",
+      "chemistry_type",
+      "temperature_deg_c",
+      "voltage_v",
+      "direction",
+      "step_ids",
+      "n_points",
+      "duration_s",
+      "temperature_start_deg_c",
+      "temperature_max_deg_c",
+      "temperature_rise_max_k",
+      "mean_abs_current_a",
+      "mean_voltage_v"
+    ]
+  }
+}

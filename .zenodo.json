@@ -1,0 +1,57 @@
+{
+  "title": "Three-term energy accounting for a cold commercial sodium-ion 18650 cell: analysis code and derived data",
+  "description": "<p>Analysis code, derived descriptor tables, figures and verification suite supporting the Letter <em>Nearly Equal Retention Metrics Conceal a 131 mV Rested-Voltage Shift in a Cold Commercial Sodium-Ion Cell</em>.</p><p>The work is a third-party reanalysis of the public TU Berlin / DepositOnce archive <em>Evaluation of Commercial Sodium-Ion Batteries by State-of-the-Art Lithium-Ion Battery Configurations</em> (DOI 10.14279/depositonce-25036, CC BY 4.0). No new measurements were made. One commercial 18650 sodium-ion cell (SIB) is compared against LFP, NMC and LTO lithium-ion references of the same format and rated capacity, over a 5-45 &deg;C checkup series.</p><p>The central result is a three-term decomposition of the delivered-energy shortfall on cooling from 25 to 5 &deg;C, evaluated on the charge axis the intermittent load/rest checkup discharge itself provides. Delivered energy falls by 25.1 %; of that shortfall, 58 % lies in a shorter delivered-charge window, 27 % in growth of the load-to-rest energy gap, and 15 % in a lower rested voltage over the charge window common to both temperatures. The load-to-rest gap is a finite-rest proxy for voltage-polarisation energy, not a measurement of dissipated heat: no calorimetry is available and none is claimed. Even the deliberately conservative allocation of the entire third term to residual polarisation leaves 42 % of the shortfall polarisation-associated against 58 % in the shorter-window term. Protocol controls disfavour upper-state preparation as the dominant source of the window term without establishing equal stored charge. With one cell per family in the temperature series, the numerical shares describe the cells analysed, not the chemistries as classes.</p><p>This deposit contains the full analysis pipeline (run end to end by <code>scripts/reproduce_all.py</code>), all regenerated tables and figures, a 29-test regression suite, a 62-check reproducibility audit, and a checker that re-derives every numerical value quoted in the manuscript from the released tables. The raw archive is not redistributed; <code>scripts/fetch_depositonce_dataset.py</code> downloads it from the source and records a SHA-256 per file.</p><p>Software is licensed MIT; derived data, figures and text are licensed CC BY 4.0. See <code>LICENSE</code> and <code>LICENSE-DATA</code>.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Sarkar, Kanchan",
+      "affiliation": "Institute of Theoretical Chemistry, Ulm University, Oberberghof 7, 89081 Ulm, Germany",
+      "orcid": "0000-0002-0025-7055"
+    },
+    {
+      "name": "Gross, Axel",
+      "affiliation": "Institute of Theoretical Chemistry, Ulm University, Oberberghof 7, 89081 Ulm, Germany"
+    }
+  ],
+  "keywords": [
+    "sodium-ion battery",
+    "commercial-cell benchmarking",
+    "low-temperature performance",
+    "delivered energy",
+    "polarisation loss",
+    "pulse resistance",
+    "electrochemical impedance spectroscopy",
+    "effective activation energy",
+    "reproducible reanalysis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.14279/depositonce-25036",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.3390/batteries11110420",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/DNV007/delivered-energy-decomposition/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100001659::390874152"
+    }
+  ],
+  "notes": "Funded by the German Research Foundation (DFG) through the POLiS Cluster of Excellence (project ID 390874152) and by the Dr. Barbara Mez-Starck Foundation. The raw measurement data are the work of Droese et al. (TU Berlin) and are not redistributed here.",
+  "version": "v1.0.0"
+}

@@ -1,0 +1,5 @@
+subset,n_spectra,sib_low_freq_zre_mohm,lfp_low_freq_zre_mohm,lto_low_freq_zre_mohm,nmc_low_freq_zre_mohm,graphite_mean_mohm,sib_to_reference_ratio
+all room-temperature spectra,40,88.89,70.63,18.42,31.01,50.82,1.749
+narrow 24-26 degC window,36,87.99,69.83,18.32,31.05,50.44,1.744
+Kramers-Kronig consistent only,37,89.79,72.25,18.42,31.01,51.63,1.739
+KK-consistent and 24-26 degC,33,89.64,71.44,18.32,31.05,51.25,1.749

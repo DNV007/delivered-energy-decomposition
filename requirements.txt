@@ -1,0 +1,24 @@
+# Environment verified on 2026-07-30: full pipeline regenerates end to end,
+# 75/75 reproducibility checks, 348/348 manuscript numbers, 31/31 tests pass.
+#
+#   uv venv .venv --python 3.11
+#   VIRTUAL_ENV=$PWD/.venv uv pip install -r requirements.txt
+#   .venv/bin/python scripts/reproduce_all.py
+#   .venv/bin/python -m pytest tests/
+#
+# `uv venv` ships no pip, so `python -m pip install` fails inside the venv;
+# use `uv pip install` as above.
+#
+# Do not run the pipeline against a system Anaconda installation: its
+# pyarrow/numexpr are compiled against NumPy 1.x and abort on import under the
+# NumPy 2.x required here.
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+matplotlib==3.11.1
+pyarrow==25.0.0
+scikit-learn==1.9.0
+# pandas .to_markdown() backend, used for the QC report written by
+# extract_raw_pulse_descriptors.py. Omitting it breaks the pipeline at stage 1.
+tabulate==0.10.0
+pytest==9.1.1

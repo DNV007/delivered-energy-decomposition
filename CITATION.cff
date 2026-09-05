@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived data, please cite both this deposit and the source dataset it reanalyses."
+title: "Three-term energy accounting for a cold commercial sodium-ion 18650 cell: analysis code and derived data"
+type: software
+license: MIT
+authors:
+  - family-names: Sarkar
+    given-names: Kanchan
+    affiliation: "Institute of Theoretical Chemistry, Ulm University, Ulm, Germany"
+    email: kanchan.sarkar@uni-ulm.de
+    orcid: "https://orcid.org/0000-0002-0025-7055"
+  - family-names: Groß
+    given-names: Axel
+    affiliation: "Institute of Theoretical Chemistry, Ulm University, Ulm, Germany"
+    email: axel.gross@uni-ulm.de
+keywords:
+  - sodium-ion battery
+  - commercial-cell benchmarking
+  - low-temperature performance
+  - delivered energy
+  - polarisation loss
+  - electrochemical impedance spectroscopy
+  - reproducible reanalysis
+repository-code: "https://github.com/DNV007/delivered-energy-decomposition"
+# version: "v1.0.0"                                 # TODO: match the release tag
+# doi: "10.5281/zenodo.XXXXXXX"                     # TODO: Zenodo concept DOI
+# date-released: 2026-07-30
+
+references:
+  - type: data
+    title: "Dataset: Evaluation of Commercial Sodium-Ion Batteries by State-of-the-Art Lithium-Ion Battery Configurations"
+    authors:
+      - family-names: Droese
+        given-names: Dominik
+      - family-names: Schlösser
+        given-names: Anton
+      - family-names: Otto
+        given-names: Martin
+    year: 2025
+    publisher:
+      name: "Technische Universität Berlin"
+    doi: 10.14279/depositonce-25036
+    license: CC-BY-4.0
+    notes: "Primary measurement data. Not redistributed in this deposit; downloaded by scripts/fetch_depositonce_dataset.py."
+  - type: article
+    title: "Evaluation of Commercial Sodium-Ion Batteries by State-of-the-Art Lithium-Ion Battery Configurations"
+    authors:
+      - family-names: Droese
+        given-names: Dominik
+      - family-names: Luc
+        given-names: Paul-Martin
+      - family-names: Otto
+        given-names: Martin
+      - family-names: Schlösser
+        given-names: Anton
+      - family-names: Evans
+        given-names: Daniel
+      - family-names: Kowal
+        given-names: Julia
+    journal: Batteries
+    volume: 11
+    issue: 11
+    start: 420
+    year: 2025
+    doi: 10.3390/batteries11110420

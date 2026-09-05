@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-05-13T11:48:09.966432+00:00",
+  "item_uuid": "5e9d5736-191b-4a8e-ba11-cb04b962a381",
+  "api_root": "https://api-depositonce.tu-berlin.de/server/api",
+  "files": [
+    {
+      "path": "data_raw/Readme.md",
+      "status": "downloaded",
+      "size_bytes": 1295,
+      "sha256": "701317257e12e5f20395b5ff4d9f2a8e41129200a48e94947fa79467060ef1a4",
+      "elapsed_seconds": 0.14,
+      "name": "Readme.md",
+      "bundle": "ORIGINAL",
+      "uuid": "cb4ace5b-5a82-409e-8e3f-34c3eb24dde5",
+      "content_url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/cb4ace5b-5a82-409e-8e3f-34c3eb24dde5/content"
+    },
+    {
+      "path": "data_raw/data_EvalSIB.zip",
+      "status": "downloaded",
+      "size_bytes": 222415780,
+      "sha256": "9f2d8d9a3911ce97fcc7ce8b7354725cfb7440621e11fa97bfdbef579dc5d307",
+      "elapsed_seconds": 4.46,
+      "name": "data_EvalSIB.zip",
+      "bundle": "ORIGINAL",
+      "uuid": "17daf84b-71a8-4312-a04e-ff078cc17654",
+      "content_url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/17daf84b-71a8-4312-a04e-ff078cc17654/content"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+check,path,status,detail
+file_exists,data_raw/Readme.md,pass,size=1295
+file_exists,data_raw/data_EvalSIB.zip,pass,size=222415780
+file_exists,data_raw/download_manifest.json,pass,size=1132
+file_exists,docs/data_inventory.csv,pass,size=31884
+file_exists,data_processed/descriptors/integrated_descriptor_long.csv,pass,size=3966389
+file_exists,data_processed/descriptors/family_temperature_descriptor_matrix.csv,pass,size=16807
+file_exists,data_processed/descriptors/family_temperature_targets.csv,pass,size=3630
+file_exists,data_processed/ocv/ocv_slope_descriptors.csv,pass,size=108080
+file_exists,data_processed/qc/protocol_soc_validation.csv,pass,size=103335
+file_exists,results/tables/table_capacity_ocv_publication_validation.csv,pass,size=2030
+file_exists,results/tables/table_ocv_slope_summary.csv,pass,size=9841
+file_exists,results/tables/table_protocol_soc_validation_summary.csv,pass,size=3576
+file_exists,results/tables/table_eis_ecm_fit_reliability_summary.csv,pass,size=2548
+file_exists,results/tables/table_central_claim_evidence.csv,pass,size=1219
+file_exists,results/tables/table_arrhenius_activation_energy.csv,pass,size=33278
+file_exists,results/tables/table_arrhenius_vtf_comparison.csv,pass,size=25631
+file_exists,results/tables/table_eis_kramers_kronig.csv,pass,size=12100
+file_exists,results/tables/table_eis_kramers_kronig_summary.csv,pass,size=592
+file_exists,results/tables/table_eis_subset_sensitivity.csv,pass,size=417
+file_exists,results/tables/table_cell_replicate_spread.csv,pass,size=868
+file_exists,results/tables/table_delivered_energy_decomposition.csv,pass,size=5113
+file_exists,results/tables/table_energy_shortfall_split.csv,pass,size=5951
+file_exists,results/tables/table_common_window_ocv_comparison.csv,pass,size=5017
+file_exists,results/tables/table_pulse_rate_dependence.csv,pass,size=710
+file_exists,results/tables/table_ordering_robustness.csv,pass,size=1092
+file_exists,results/tables/table_cutoff_normalisation.csv,pass,size=6846
+file_exists,results/tables/table_relaxation_geometry.csv,pass,size=742
+file_exists,results/reports/ocv_slope_analysis.md,pass,size=612
+file_exists,manuscript/submission/cover_letter_skeleton.md,pass,size=2839
+file_exists,manuscript/latex/Manuscript_ACS_Energy_Letters.tex,pass,size=21152
+file_exists,manuscript/latex/SM_ACS_Energy_Letters.tex,pass,size=68854
+file_exists,manuscript/latex/JES/Manuscript.tex,pass,size=99205
+file_exists,manuscript/latex/JES/SM.tex,pass,size=64877
+file_exists,manuscript/figures/figure1_data_architecture.png,pass,size=232320
+file_exists,manuscript/figures/figure2_energy_decomposition.png,pass,size=509470
+file_exists,manuscript/figures/figure_decomposition_trace.png,pass,size=572405
+file_exists,manuscript/figures/figure_decomposition_trace_acs.png,pass,size=564085
+file_exists,manuscript/figures/figure2_energy_decomposition_acs.png,pass,size=513899
+file_exists,manuscript/figures/figure4_raw_pulse_bottleneck.png,pass,size=294410
+file_exists,manuscript/figures/figure5_eis_bottleneck_decomposition.png,pass,size=228642
+file_exists,manuscript/figures/figure6_ocv_entropy_thermal_coupling.png,pass,size=256302
+file_exists,manuscript/figures/graphical_abstract.png,pass,size=221893
+file_exists,results/figures/fig12_ocv_slope_penalty.png,pass,size=106283
+csv_rows,data_processed/descriptors/integrated_descriptor_long.csv,pass,rows=14463; expected_min=14000
+csv_rows,data_processed/descriptors/family_temperature_descriptor_matrix.csv,pass,rows=20; expected_min=20
+csv_rows,data_processed/descriptors/family_temperature_targets.csv,pass,rows=20; expected_min=20
+csv_rows,data_processed/ocv/ocv_slope_descriptors.csv,pass,rows=480; expected_min=480
+csv_rows,data_processed/qc/protocol_soc_validation.csv,pass,rows=420; expected_min=420
+csv_rows,results/tables/table_capacity_ocv_publication_validation.csv,pass,rows=8; expected_min=8
+csv_rows,results/tables/table_ocv_slope_summary.csv,pass,rows=40; expected_min=40
+csv_rows,results/tables/table_central_claim_evidence.csv,pass,rows=6; expected_min=6
+csv_rows,results/tables/table_arrhenius_activation_energy.csv,pass,rows=120; expected_min=120
+csv_rows,results/tables/table_arrhenius_vtf_comparison.csv,pass,rows=120; expected_min=120
+csv_rows,results/tables/table_eis_kramers_kronig.csv,pass,rows=40; expected_min=40
+csv_rows,results/tables/table_eis_subset_sensitivity.csv,pass,rows=4; expected_min=4
+csv_rows,results/tables/table_eis_ecm_fit_reliability.csv,pass,rows=160; expected_min=160
+csv_rows,results/tables/table_eis_ecm_fit_reliability_summary.csv,pass,rows=16; expected_min=16
+csv_rows,results/tables/table_cutoff_normalisation.csv,pass,rows=40; expected_min=40
+status_column,results/tables/table_capacity_ocv_publication_validation.csv,pass,validation_status all pass=True
+status_column,results/tables/table_central_claim_evidence.csv,pass,support_status all supports=True
+ecm_rejection,results/tables/table_eis_ecm_fit_reliability_summary.csv,pass,pass_count_sum=0
+protocol_soc_mean_error,results/tables/table_protocol_soc_validation_summary.csv,pass,mean_error_percent=1.633

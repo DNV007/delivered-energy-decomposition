@@ -1,0 +1,5 @@
+eis_descriptor,pulse_descriptor,n_families,pearson_r,spearman_r
+eis_series_resistance_mohm,pulse_1c_discharge_r_fast_mohm,4,0.9003950107384198,0.7999999999999999
+eis_min_abs_zim_resistance_mohm,pulse_1c_discharge_r_fast_mohm,4,0.9023462261599418,0.7999999999999999
+eis_low_freq_zre_mohm,pulse_1c_discharge_r_1s_mohm,4,0.9894462087725603,1.0
+eis_arc_width_zre_mohm,pulse_1c_discharge_polarization_1s_mohm,4,0.860147423378651,0.7999999999999999

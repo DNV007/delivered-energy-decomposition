@@ -1,0 +1,7 @@
+evidence_id,evidence_statement,metric_value,reference_value,support_status,source
+energy_penalty_5c,SIB has the largest 5 deg C OCV-aware energy-retention penalty.,0.1746692932683803,0.0518013548586872,supports,data_processed/descriptors/family_temperature_targets.csv
+pulse_timepoint_robustness,SIB 5 deg C resistance excess is robust across pulse time points.,5,5,supports,results/tables/table_pulse_timepoint_sensitivity.csv
+ocv_window_robustness,SIB 5 deg C usable-energy retention remains lowest across OCV capacity windows.,4,4,supports,results/tables/table_ocv_window_smoothing_sensitivity.csv
+eis_transport_proxy,SIB has the largest room-temperature low-frequency EIS Zre proxy.,88.88945,40.020783333333334,supports,results/tables/table_eis_family_summary.csv
+ecm_rejection,Equivalent-circuit fitted parameters are rejected for core interpretation.,0,160,supports,results/tables/table_eis_ecm_fit_reliability_summary.csv
+baseline_importance_split,Baseline screening separates energy retention from resistance-growth bottlenecks.,energy=discharge_capacity_retention_vs_25c; growth=temperature_deg_c,ridge_core top-ranked standardized coefficients,supports,results/tables/table_baseline_descriptor_importance.csv

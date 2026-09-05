@@ -1,0 +1,42 @@
+# License for data, figures, tables and manuscript text
+
+The software in this repository (everything under `scripts/`, `src/`, `tests/`
+and `notebooks/`) is licensed under the MIT License; see `LICENSE`.
+
+Everything else produced by this project is licensed under the
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**:
+
+- `data_processed/` — descriptor tables derived from the source archive
+- `results/` — regenerated tables, figures and reports
+- `manuscript/` — manuscript text, supplementary information, figures, tables
+- `docs/` — analysis documentation
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the licence, and indicate whether
+changes were made.
+
+## Upstream data
+
+Nothing in `data_raw/` is covered by the licences above. It is redistributed
+from, or downloaded directly from, the source archive:
+
+> Droese, D., Schlösser, A., Otto, M. (dataset creators; the associated paper
+> adds Luc, P.-M., Evans, D. and Kowal, J.)
+> *Evaluation of Commercial Sodium-Ion Batteries by State-of-the-Art
+> Lithium-Ion Battery Configurations* (dataset).
+> TU Berlin / DepositOnce, 2025. DOI: 10.14279/depositonce-25036
+
+That archive is released by TU Berlin under **CC BY 4.0**
+(`dc.rights.uri = https://creativecommons.org/licenses/by/4.0/`, confirmed
+against the DepositOnce API). The derived material in this repository is
+therefore an adaptation of a CC BY 4.0 work and is licensed compatibly.
+Attribution to the original authors is required by that licence and is carried
+in the manuscript, in this file, and in `CITATION.cff`.
+
+The associated publication is:
+
+> Droese, D. et al. *Batteries* **11**(11), 420 (2025).
+> DOI: 10.3390/batteries11110420

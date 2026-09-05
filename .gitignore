@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor residue
+*.swp
+*.swo
+*~
+
+# Raw data: 213 MB, redistributed by TU Berlin under CC BY 4.0, not by us.
+# scripts/fetch_depositonce_dataset.py downloads it; the manifest is tracked.
+data_raw/*
+!data_raw/README.md
+!data_raw/Readme.md
+!data_raw/download_manifest.json
+
+# LaTeX build artefacts. Manuscript.pdf and SM.pdf ARE tracked -- the release
+# should carry the exact PDFs that were checked. The .aux files are not, but
+# check_manuscript_crossrefs.py needs them, so build both documents before
+# running the test suite or that check silently skips.
+*.aux
+*.log
+*.out
+*.spl
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+acs-*.bib
+
+# Working backups
+*.bak
+*.bak-*
+*.prefix
+*.premerge
+*.prerestore
+
+# Abandoned DFT study: cut from the manuscript, 79 GB of VASP output, and no
+# part of this analysis or the release.
+dft_calculations/
+dft_calculations_old/
+mp-*.json
+
+# Manuscript working history: superseded drafts, slide decks, and reading
+# copies of third-party papers. The literature folder holds publisher PDFs
+# (Elsevier, MDPI, RSC) that we have no right to redistribute, so none of
+# this belongs in a public repository or in the Zenodo deposit.
+manuscript/latex/_archive/
+
+# Superseded top-level manuscript files, kept locally for reference only.
+manuscript/main.*
+manuscript/supplementary.tex
+manuscript/source.zip
+manuscript/source/
+manuscript/draft/
+manuscript/Publications_AG.html
+manuscript/DFT_discard
+
+# Third-party measurement data used for an external cross-check that is not
+# part of the manuscript. 89 MB of Molicel P42A .mat files from the
+# Stanford/SLAC dataset (OSF 10.17605/OSF.IO/9CEAV; Khan et al., Sci Data 12,
+# 1506, 2025). Not ours to redistribute, same as data_raw/. What was done with
+# it is recorded in results/internal/stanford_rate_dependence_assessment.md.
+data_external/
+
+# Release artefacts. These belong on the GitHub Releases page and in Zenodo,
+# not in the repository history, where every new release would duplicate them.
+dist/
+
+# Local tooling and filesystem residue
+.claude/
+.nfs*
+
+# Superseded working documents (May-August 2026), kept locally only.
+# See _archive/superseded_docs/README.md.
+_archive/
+
+# Loose scratch files at the project root
+/t
+/DFT_discard

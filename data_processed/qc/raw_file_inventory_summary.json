@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-07-30T09:17:12.744422+00:00",
+  "record_count": 163,
+  "record_counts": {
+    "file": 4,
+    "archive_member": 159
+  },
+  "measurement_stream_counts": {
+    "metadata": 10,
+    "unknown": 1,
+    "entropy": 24,
+    "hppc": 24,
+    "checkup_raw": 20,
+    "eis": 80,
+    "ocv": 4
+  },
+  "suffix_counts": {
+    ".md": 2,
+    ".zip": 1,
+    ".npy": 8,
+    ".csv": 104,
+    ".parquet": 40,
+    ".py": 5,
+    ".ipynb": 2,
+    ".json": 1
+  },
+  "chemistry_counts": {
+    "unknown": 11,
+    "lithium-ion": 114,
+    "sodium-ion": 38
+  },
+  "cell_family_counts": {
+    "unknown": 11,
+    "LFP": 38,
+    "LTO": 38,
+    "NMC": 38,
+    "SIB": 38
+  },
+  "temperatures_detected_deg_c": [
+    "5",
+    "15",
+    "24",
+    "25",
+    "26",
+    "27",
+    "35",
+    "45"
+  ]
+}
