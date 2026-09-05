@@ -132,9 +132,11 @@ def apply(repo: str, tag: str, doi: str, orcids: dict[str, str]) -> int:
     text = re.sub(r'#\s*date-released:.*', f'date-released: {today}', text)
     for family, orcid in orcids.items():
         orcid = orcid.removeprefix("https://orcid.org/")
+        # Keep the line break and the indentation: an earlier version let
+        # \s* swallow both and welded the orcid key onto the email line.
         text = re.sub(
-            rf'(family-names: {re.escape(family)}\b.*?)#?\s*orcid:.*?(\n)',
-            rf'\1orcid: "https://orcid.org/{orcid}"\2',
+            rf'(family-names: {re.escape(family)}\b.*?\n)([ \t]*)#?\s*orcid:[^\n]*(\n)',
+            rf'\1\2orcid: "https://orcid.org/{orcid}"\3',
             text, count=1, flags=re.S)
     CITATION.write_text(text, encoding="utf-8")
 

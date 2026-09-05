@@ -36,9 +36,9 @@ This check verifies the presence and basic integrity of the current processed da
 - pass: file_exists | results/tables/table_relaxation_geometry.csv | size=742
 - pass: file_exists | results/reports/ocv_slope_analysis.md | size=612
 - pass: file_exists | manuscript/submission/cover_letter_skeleton.md | size=2839
-- pass: file_exists | manuscript/latex/Manuscript_ACS_Energy_Letters.tex | size=21152
+- pass: file_exists | manuscript/latex/Manuscript_ACS_Energy_Letters.tex | size=21105
 - pass: file_exists | manuscript/latex/SM_ACS_Energy_Letters.tex | size=68854
-- pass: file_exists | manuscript/latex/JES/Manuscript.tex | size=99205
+- pass: file_exists | manuscript/latex/JES/Manuscript.tex | size=99157
 - pass: file_exists | manuscript/latex/JES/SM.tex | size=64877
 - pass: file_exists | manuscript/figures/figure1_data_architecture.png | size=232320
 - pass: file_exists | manuscript/figures/figure2_energy_decomposition.png | size=509470

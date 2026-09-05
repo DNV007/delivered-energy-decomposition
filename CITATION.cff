@@ -22,9 +22,9 @@ keywords:
   - electrochemical impedance spectroscopy
   - reproducible reanalysis
 repository-code: "https://github.com/DNV007/delivered-energy-decomposition"
-# version: "v1.0.0"                                 # TODO: match the release tag
-# doi: "10.5281/zenodo.XXXXXXX"                     # TODO: Zenodo concept DOI
-# date-released: 2026-07-30
+version: "v1.0.0"
+doi: "10.5281/zenodo.22342054"
+date-released: 2026-09-05
 
 references:
   - type: data
